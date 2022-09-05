@@ -28,4 +28,12 @@ Este archivo contiene la pantalla en donde se ven reflejados los productos que h
 Este archivo contiene la pantalla donde se ve reflejado el historial de ordenes de compra del usuario, Con fecha, número de articulos y Total de la compra.
 
 
+# Archivos 11-13
+Se agregan los ultimos 3 archivos del proyecto, los cuales corresponden a las secciones de: Navbar, el product detail y el Shopping cart.
+
+Navbar corresponde a la barra de menu que va en la parte superior en donde se encontraran las diferentes secciones de navegación de la tienda y el icono de la sección del carrito.
+
+Product Detail corresponde a la pantalla donde vamos a poder evidenciar el producto seleccionado, con sus fotos y descripción, en la parte inferior va el botón de agregar al carrito.
+
+Shopping Cart corresponde al carrito de compra, alli vamos a encontrar los productos que se escogieron con su precio unitario y el total, al final esta el botón para finalizar la compra y hacer el checkout.
 
