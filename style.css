@@ -1,3 +1,4 @@
+/* #General */
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -17,6 +18,8 @@ body {
     display: none;
 }
 
+
+/* Barra de Navegación */
 nav {
     display: flex;
     justify-content: space-between;
@@ -81,7 +84,7 @@ nav {
     align-items: center;
 }
 
-
+/* Menu en Desktop */
 .desktop-menu {
     position: absolute;
     top: 60px;
@@ -121,6 +124,41 @@ nav {
     
 }
 
+
+/* Menu en Mobile */
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    padding: 24px;
+}
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+.mobile-menu ul {
+    margin: 0;
+    padding: 20px 0 0;
+    list-style: none;
+}
+.mobile-menu ul:nth-child(2) {
+    margin: 60px 0 75px 0;
+}
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+.mobile-menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+    position: relative;
+    top: 20px;
+}
+.mobile-menu .sign-out {
+    font-size: var(--sm);
+    font-weight: 300;
+    color: var(--hospital-green);
+}
+
 @media (max-width: 640px) {
     .menu {
         display: block;
@@ -129,6 +167,16 @@ nav {
         display: none;
     }
     .navbar-email {
+        display: none;
+    }
+    .desktop-menu {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 641px) {
+    .mobile-menu {
         display: none;
     }
 }
