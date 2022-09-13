@@ -37,3 +37,10 @@ Product Detail corresponde a la pantalla donde vamos a poder evidenciar el produ
 
 Shopping Cart corresponde al carrito de compra, alli vamos a encontrar los productos que se escogieron con su precio unitario y el total, al final esta el botón para finalizar la compra y hacer el checkout.
 
+### INTEGRACIÓN CON JAVASCRIPT ###
+
+Desde este punto voy a iniciar con la integración de Javascript al proyecto, para poder fusionar las diferentes pantallas de la tienda virtual y agregar la interactividad de cada sección de la pagina.
+
+# Fusión del Menú versión Desktop
+
+Acá se va a realizar la fusión del menú para agregar la parde dinamica donde se encuentran las secciones de "My_Order", "Account", "Signout" todo esto se acciona cuando le das click a donde se ve el email del usuario.
